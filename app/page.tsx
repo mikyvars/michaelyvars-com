@@ -1,3 +1,5 @@
+import { Github } from 'lucide-react'
+import Icon from './components/icon'
 import Typography from './components/typography'
 
 export default function Home() {
@@ -10,6 +12,9 @@ export default function Home() {
       <Typography variant="body1">Hello World</Typography>
       <Typography variant="body2">Hello World</Typography>
       <Typography variant="body3">Hello World</Typography>
+
+      <Icon icon={Github} variant="md" />
+      <Icon icon={Github} variant="lg" />
     </>
   )
 }
