@@ -2,6 +2,7 @@ import { Github } from 'lucide-react'
 import Icon from './components/icon'
 import Typography from './components/typography'
 import Button from './components/button'
+import IconButton from './components/icon-button'
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
       <Icon icon={Github} variant="lg" />
 
       <Button>Button</Button>
+
+      <IconButton icon={Github} variant="md" />
+      <IconButton icon={Github} variant="lg" />
     </>
   )
 }
