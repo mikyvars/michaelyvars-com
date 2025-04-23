@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header className="flex w-screen flex-col md:flex-row">
-      <div className="flex w-full items-center justify-between bg-[var(--background)] p-4 md:px-20">
+      <div className="bg-gray-default flex w-full items-center justify-between p-4 md:px-20">
         <p className="text-3xl font-bold text-gray-900">{"<MY />"}</p>
         <div onClick={handleClick} className="md:hidden">
           {isOpen ? <X /> : <Menu />}

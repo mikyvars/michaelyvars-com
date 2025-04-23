@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-import Header from "./components/header";
 import "./globals.css";
 
 const interSans = Inter({
@@ -22,10 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${interSans.variable} antialiased`}>
-        <ThemeProvider attribute="class">
-          <Header />
-          {children}
-        </ThemeProvider>
+        <ThemeProvider attribute="class">{children}</ThemeProvider>
       </body>
     </html>
   );

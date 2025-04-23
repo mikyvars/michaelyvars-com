@@ -1,21 +1,21 @@
-import { cva, VariantProps } from 'class-variance-authority'
-import { LucideIcon } from 'lucide-react'
+import { cva, VariantProps } from "class-variance-authority";
+import { ReactNode } from "react";
 
-const iconVariants = cva('text-gray-600', {
+const iconVariants = cva("text-gray-600", {
   variants: {
     variant: {
-      md: 'h-6 w-6',
-      lg: 'h-8 w-8'
-    }
-  }
-})
+      md: "h-6 w-6",
+      lg: "h-8 w-8",
+    },
+  },
+});
 
 interface IconProps extends VariantProps<typeof iconVariants> {
-  icon: LucideIcon
+  children: ReactNode;
 }
 
-const Icon = ({ icon: IconComponent, variant = 'md' }: IconProps) => {
-  return <IconComponent className={iconVariants({ variant })} />
-}
+const Icon = ({ variant = "md", children }: IconProps) => {
+  return <div className={iconVariants({ variant })}>{children}</div>;
+};
 
-export default Icon
+export default Icon;
