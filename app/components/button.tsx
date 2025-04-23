@@ -4,7 +4,7 @@ const Button = ({ children }: { children: ReactNode }) => {
   return (
     <button
       type="button"
-      className="px-2 py-1.5 bg-gray-100 text-gray-900 rounded-xl hover:bg-gray-300 active:bg-gray-200 transition-colors duration-200">
+      className="px-2 py-1.5 bg-gray-900 text-gray-50 rounded-xl hover:bg-gray-700 active:bg-gray-800 transition-colors duration-200">
       {children}
     </button>
   )
