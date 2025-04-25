@@ -1,15 +1,19 @@
-import { Github, Linkedin } from "lucide-react";
+"use client";
+
 import IconButton from "./icon-button";
+import { SOCIAL_LINKS } from "../lib/data";
 
 const Socials = () => {
   return (
     <div className="flex">
-      <IconButton>
-        <Github />
-      </IconButton>
-      <IconButton>
-        <Linkedin />
-      </IconButton>
+      {SOCIAL_LINKS.map((socialLink, index) => (
+        <IconButton
+          key={index}
+          onClick={() => window.open(socialLink.href, "_blank")}
+        >
+          {socialLink.icon}
+        </IconButton>
+      ))}
     </div>
   );
 };

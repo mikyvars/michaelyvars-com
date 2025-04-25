@@ -13,13 +13,23 @@ const iconButtonVariants = cva(
   },
 );
 
-interface IconButtonProps extends VariantProps<typeof iconButtonVariants> {
+interface IconButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
+    VariantProps<typeof iconButtonVariants> {
   children: ReactNode;
 }
 
-const IconButton = ({ variant = "md", children }: IconButtonProps) => {
+const IconButton = ({
+  variant = "md",
+  children,
+  ...props
+}: IconButtonProps) => {
   return (
-    <button type="button" className={iconButtonVariants({ variant })}>
+    <button
+      type="button"
+      className={iconButtonVariants({ variant })}
+      {...props}
+    >
       {children}
     </button>
   );

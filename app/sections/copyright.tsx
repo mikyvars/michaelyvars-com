@@ -1,17 +1,13 @@
 import Link from "next/link";
 import Typography from "../components/typography";
-import Icon from "../components/icon";
 import { CopyrightIcon } from "lucide-react";
 
 const Copyright = () => {
   return (
     <section className="flex flex-col items-center bg-gray-50 px-4 py-4 md:px-20 md:py-6">
       <Typography className="flex items-center gap-1">
-        Copyright 2025{" "}
-        <Icon variant={"sm"}>
-          <CopyrightIcon />
-        </Icon>{" "}
-        - All rights reserved
+        Copyright 2025 <CopyrightIcon className="h-4 w-4" />- All rights
+        reserved
       </Typography>
       <Typography>
         <Link
