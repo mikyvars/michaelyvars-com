@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Typography from "../components/typography";
 import Icon from "../components/icon";
-import { CircleCheck, Github, Linkedin, MapPin } from "lucide-react";
-import IconButton from "../components/icon-button";
+import { CircleCheck, MapPin } from "lucide-react";
+import Socials from "../components/socials";
 
 const Hero = () => {
   return (
@@ -47,14 +47,7 @@ const Hero = () => {
             </Typography>
           </div>
         </div>
-        <div className="flex">
-          <IconButton>
-            <Github />
-          </IconButton>
-          <IconButton>
-            <Linkedin />
-          </IconButton>
-        </div>
+        <Socials />
       </div>
     </div>
   );
