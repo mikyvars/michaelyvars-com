@@ -2,7 +2,7 @@ import { cva, VariantProps } from "class-variance-authority";
 import { ReactNode } from "react";
 
 const iconButtonVariants = cva(
-  "flex items-center justify-center rounded-xl text-gray-600 transition-colors duration-200 hover:bg-gray-100 active:bg-gray-200",
+  "active:bg-gray-20 flex cursor-pointer items-center justify-center rounded-xl text-gray-600 transition-colors duration-200 hover:bg-gray-100",
   {
     variants: {
       variant: {

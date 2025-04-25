@@ -1,7 +1,8 @@
 import Header from "./components/header";
+import Hero from "./sections/hero";
 import About from "./sections/about";
 import Footer from "./sections/footer";
-import Hero from "./sections/hero";
+import Copyright from "./sections/copyright";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <About />
       <Footer />
+      <Copyright />
     </>
   );
 }

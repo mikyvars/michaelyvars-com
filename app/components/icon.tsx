@@ -4,8 +4,10 @@ import { ReactNode } from "react";
 const iconVariants = cva("text-gray-600", {
   variants: {
     variant: {
-      md: "h-6 w-6",
-      lg: "h-8 w-8",
+      sm: "[&_svg]:h-4 [&_svg]:w-4",
+      md: "[&_svg]:h-6 [&_svg]:w-6",
+      lg: "[&_svg]:h-8 [&_svg]:w-8",
+      auto: "[&_svg]:h-6 [&_svg]:w-6 md:[&_svg]:h-8 md:[&_svg]:w-8",
     },
   },
 });
