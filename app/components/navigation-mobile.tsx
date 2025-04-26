@@ -1,6 +1,6 @@
-import Button from "./button";
 import Typography from "./typography";
 import ThemeSwitcher from "./theme-switcher";
+import DownloadCV from "./download-cv";
 import { NAVIGATION_LINKS } from "../lib/data";
 
 const NavigationMobile = () => {
@@ -15,7 +15,7 @@ const NavigationMobile = () => {
       </div>
       <div className="flex flex-col gap-4 p-4">
         <ThemeSwitcher />
-        <Button>Download CV</Button>
+        <DownloadCV />
       </div>
     </div>
   );

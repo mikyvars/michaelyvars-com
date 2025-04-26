@@ -1,5 +1,5 @@
 import { NAVIGATION_LINKS } from "../lib/data";
-import Button from "./button";
+import DownloadCV from "./download-cv";
 import ThemeSwitcher from "./theme-switcher";
 import Typography from "./typography";
 
@@ -13,7 +13,7 @@ const Navigation = () => {
       ))}
       <div className="h-6 w-0.5 bg-gray-100"></div>
       <ThemeSwitcher />
-      <Button>Download CV</Button>
+      <DownloadCV />
     </div>
   );
 };
