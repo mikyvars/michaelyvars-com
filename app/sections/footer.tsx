@@ -9,7 +9,7 @@ import Container from "../components/container";
 const Footer = () => {
   return (
     <>
-      <Container>
+      <Container id="#contact">
         <section className="flex flex-col items-center gap-6">
           <Tag>Get in touch</Tag>
           <Typography variant={"subtitle"} className="text-center">
