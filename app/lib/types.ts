@@ -1,5 +1,4 @@
 import { LucideIcon } from "lucide-react";
-import { ReactElement } from "react";
 
 export interface NavigationLink {
   href: string;
@@ -8,5 +7,5 @@ export interface NavigationLink {
 
 export interface SocialLink {
   href: string;
-  icon: ReactElement<LucideIcon>;
+  icon: LucideIcon;
 }

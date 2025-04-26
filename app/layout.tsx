@@ -20,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${interSans.variable} antialiased`}>
+      <body
+        className={`${interSans.variable} antialiased`}
+        suppressHydrationWarning
+      >
         <ThemeProvider attribute="class">{children}</ThemeProvider>
       </body>
     </html>

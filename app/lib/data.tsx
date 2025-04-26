@@ -8,6 +8,6 @@ export const NAVIGATION_LINKS: NavigationLink[] = [
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { href: "https://github.com/mikyvars", icon: <Github /> },
-  { href: "https://www.linkedin.com/in/michael-yvars/", icon: <Linkedin /> },
+  { href: "https://github.com/mikyvars", icon: Github },
+  { href: "https://www.linkedin.com/in/michael-yvars/", icon: Linkedin },
 ];
