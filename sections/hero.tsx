@@ -17,6 +17,7 @@ const Hero = () => {
               className="border-gray-default absolute left-5 z-10 h-[280px] w-[240px] border-8 md:top-0 md:left-0 md:h-[320px] md:w-[280px]"
               width={240}
               height={280}
+              style={{ objectFit: "cover" }}
             />
             <div className="absolute top-5 h-[280px] w-[280px] border-8 border-transparent bg-gray-100 md:top-10 md:right-0 md:bottom-0 md:h-[320px]"></div>
           </div>
