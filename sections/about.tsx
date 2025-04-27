@@ -29,16 +29,17 @@ const About = () => {
               <Typography variant="body2">
                 Depuis bientôt <strong>10 ans</strong>, je gravite autour du
                 monde du développement. J&apos;ai commencé par bidouiller des
-                projets sur des jeux vidéo, en codant en <strong>Java</strong>et
-                en <strong>Lua</strong>, sans vraiment savoir quej&apos;étais en
-                train de trouver ma voie. Cette curiositém&apos;a suivi
-                jusqu&apos;à aujourd&apos;hui, nourrissant monenvie constante
-                d&apos;apprendre, d&apos;explorer de nouvellestechnologies et de
-                donner vie à des projets concrets.Aujourd&apos;hui, je me
-                spécialise dans le<strong>développement web</strong>, en
-                travaillantprincipalement avec <strong>JavaScript</strong>,{" "}
-                <strong>Next.js</strong> et <strong>TailwindCSS</strong>{" "}
-                pourcréer des applications modernes, rapides et élégantes.
+                projets sur des jeux vidéo, en codant en <strong>Java</strong>{" "}
+                et en <strong>Lua</strong>, sans vraiment savoir que
+                j&apos;étais en train de trouver ma voie. Cette curiosité
+                m&apos;a suivi jusqu&apos;à aujourd&apos;hui, nourrissant mon
+                envie constante d&apos;apprendre, d&apos;explorer de nouvelles
+                technologies et de donner vie à des projets concrets.
+                Aujourd&apos;hui, je me spécialise dans le{" "}
+                <strong>développement web</strong>, en travaillant
+                principalement avec <strong>JavaScript</strong>,{" "}
+                <strong>Next.js</strong> et <strong>TailwindCSS</strong> pour
+                créer des applications modernes, rapides et élégantes.
               </Typography>
 
               <Typography variant="body2">
