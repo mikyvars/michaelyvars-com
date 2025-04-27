@@ -1,7 +1,6 @@
-import { Copy, Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import Tag from "../components/tag";
 import Typography from "../components/typography";
-import IconButton from "../components/icon-button";
 import Icon from "../components/icon";
 import Socials from "../components/socials";
 import Container from "../components/container";
@@ -23,18 +22,18 @@ const Footer = () => {
                 <Mail />
               </Icon>
               <Typography variant={"h2"}>michaelyvars1@gmail.com</Typography>
-              <IconButton>
+              {/* <IconButton>
                 <Copy />
-              </IconButton>
+              </IconButton> */}
             </div>
             <div className="flex items-center gap-4">
               <Icon variant={"auto"}>
                 <Phone />
               </Icon>
               <Typography variant={"h2"}>+33650226921</Typography>
-              <IconButton>
+              {/* <IconButton>
                 <Copy />
-              </IconButton>
+              </IconButton> */}
             </div>
           </div>
           <div className="flex flex-col items-center">
