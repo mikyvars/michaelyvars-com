@@ -5,7 +5,7 @@ const DownloadCV = () => {
     <Button
       onClick={() => window?.open("/files/michael-yvars-cv.pdf", "_blank")}
     >
-      Download CV
+      Télécharger mon CV
     </Button>
   );
 };

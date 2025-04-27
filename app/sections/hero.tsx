@@ -23,14 +23,15 @@ const Hero = () => {
         </div>
         <div className="flex flex-col gap-12 md:w-1/2">
           <div className="flex flex-col gap-2">
-            <Typography variant="h1">{"Hi, I'm Michael 👋"}</Typography>
+            <Typography variant="h1">
+              {"Hello, moi c'est Michael 👋"}
+            </Typography>
             <Typography variant="body2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex
-              nisi, rhoncus nec aliquet eu, fringilla quis justo. Maecenas quis
-              orci ut tortor eleifend aliquam. Etiam vitae nulla nunc. Aliquam
-              erat volutpat. Curabitur tempor quam ac iaculis viverra.
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-              posuere cubilia.
+              Développeur web en devenir, passionné par le JavaScript et les
+              technologies modernes. J&apos;aime apprendre, expérimenter et
+              créer des projets rapides, accessibles et agréables à utiliser.
+              Aujourd&apos;hui, je cherche une alternance pour grandir et
+              progresser aux côtés de professionnels.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
@@ -47,7 +48,7 @@ const Hero = () => {
                 <CircleCheck className="text-emerald-500" />
               </Icon>
               <Typography variant="body2">
-                Available for an apprenticeship
+                Disponible pour une alternance
               </Typography>
             </div>
           </div>

@@ -2,8 +2,8 @@ import { Github, Linkedin } from "lucide-react";
 import { NavigationLink, SocialLink } from "./types";
 
 export const NAVIGATION_LINKS: NavigationLink[] = [
-  { href: "#about", label: "About" },
-  { href: "#work", label: "Work" },
+  { href: "#about", label: "À propos" },
+  // { href: "#work", label: "Work" },
   { href: "#contact", label: "Contact" },
 ];
 

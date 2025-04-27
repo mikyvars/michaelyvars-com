@@ -8,7 +8,7 @@ const About = () => {
     <div className="bg-gray-50">
       <Container>
         <div className="flex flex-col items-center gap-6 md:gap-12">
-          <Tag>About me</Tag>
+          <Tag>À propos de moi</Tag>
           <div className="flex flex-col items-center gap-12 md:flex-row">
             <div className="flex flex-1">
               <div className="relative h-[300px] w-[280px] md:h-[360px] md:w-[320px]">
@@ -24,33 +24,68 @@ const About = () => {
             </div>
             <div className="flex flex-1 flex-col gap-6">
               <Typography variant="h3">
-                Curious about me? Here you have it:
+                Vous êtes curieux à mon sujet ?
               </Typography>
               <Typography variant="body2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                metus felis, blandit ac dui ac, cursus convallis erat. Aenean
-                eros dolor, tristique et neque ac, lobortis tristique eros. Duis
-                et commodo nibh. Pellentesque in sodales diam. Curabitur vitae
-                urna ipsum. Praesent pulvinar tincidunt metus vel gravida. In
-                mattis tellus nulla, eu varius lacus posuere ac. Sed dictum,
-                mauris a sollicitudin fermentum, augue enim tincidunt purus,
-                cursus vestibulum tortor ante in metus. Donec blandit ipsum a
-                felis mollis cursus ac a ex. Ut pharetra nec mi non suscipit.
+                Depuis bientôt <strong>10 ans</strong>, je gravite autour du
+                monde du développement. J&apos;ai commencé par bidouiller des
+                projets sur des jeux vidéo, en codant en <strong>Java</strong>
+                et en <strong>Lua</strong>, sans vraiment savoir que
+                j&apos;étais en train de trouver ma voie. Cette curiosité
+                m&apos;a suivi jusqu&apos;à aujourd&apos;hui, nourrissant mon
+                envie constante d&apos;apprendre, d&apos;explorer de nouvelles
+                technologies et de donner vie à des projets concrets.
+                Aujourd&apos;hui, je me spécialise dans le
+                <strong>développement web</strong>, en travaillant
+                principalement avec <strong>JavaScript</strong>,
+                <strong>Next.js</strong> et <strong>TailwindCSS</strong> pour
+                créer des applications modernes, rapides et élégantes.
               </Typography>
+
               <Typography variant="body2">
-                Curabitur porta, felis non finibus volutpat, dolor massa posuere
-                erat, et efficitur neque turpis vitae est. Nunc et sollicitudin
-                nunc, a dapibus est. Ut ac ligula et nulla consectetur dapibus.
-                Proin placerat elit tristique, placerat mauris eget, accumsan
-                neque. Integer vestibulum pellentesque lacus in mattis. In
-                venenatis auctor felis, non viverra nibh aliquam in. Cras sed mi
-                elit. Praesent ultricies dui eu tortor aliquet dignissim.
-                Maecenas a sapien dignissim, consequat mi ut, interdum magna. Ut
-                orci neque, pretium sed dignissim in, ultricies accumsan felis.
-                Pellentesque habitant morbi tristique senectus et netus et
-                malesuada fames ac turpis egestas. In quis lectus quis eros
-                convallis ultrices.
+                Ce que j&apos;aime par-dessus tout, c&apos;est transformer une
+                idée en un produit abouti. J&apos;accorde une attention
+                particulière à <strong>l&apos;expérience utilisateur</strong> et
+                à <strong>la qualité visuelle</strong> de mes projets. Un site
+                ou une application doit être <strong>fluide</strong>,
+                <strong>rapide</strong> et <strong>agréable à utiliser</strong>,
+                tout en offrant une <strong>esthétique soignée</strong>.
+                J&apos;aime chercher cet équilibre entre
+                <strong>performance technique</strong> et
+                <strong>plaisir visuel</strong>, pour créer des expériences
+                numériques qui donnent envie de rester.
               </Typography>
+
+              <Typography variant="body2">
+                Aujourd&apos;hui, je suis à la recherche d&apos;une
+                <strong>alternance</strong> pour continuer à développer mes
+                compétences aux côtés de professionnels expérimentés. Grâce à ma
+                <strong>capacité d&apos;apprentissage rapide</strong> et à ma
+                <strong>curiosité naturelle</strong>, je suis capable de monter
+                en compétence efficacement sur de nouvelles technologies ou de
+                nouveaux outils. J&apos;aime sortir de ma zone de confort,
+                relever des défis, et pousser chaque projet à donner le meilleur
+                de lui-même — tout comme moi.
+              </Typography>
+
+              <Typography variant="body2">
+                En dehors du code, je suis passionné de <strong>cinéma</strong>,
+                toujours à la recherche du prochain film qui me marquera, et
+                grand amateur de la franchise <strong>Marvel</strong>.
+                J&apos;adore aussi organiser des projets autour des
+                <strong>jeux vidéo</strong> avec mes amis : brainstormer,
+                construire, créer ensemble… Le
+                <strong>travail d&apos;équipe</strong> et la
+                <strong>créativité</strong> ont toujours été au cœur de ce que
+                j&apos;aime faire.
+              </Typography>
+
+              <Typography variant="body2">
+                Si vous souhaitez en savoir plus ou échanger avec moi, toutes
+                mes informations de contact sont disponibles en bas de page.
+              </Typography>
+
+              <Typography variant="body2">À bientôt !</Typography>
             </div>
           </div>
         </div>

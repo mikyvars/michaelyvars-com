@@ -11,10 +11,10 @@ const Footer = () => {
     <>
       <Container id="#contact">
         <section className="flex flex-col items-center gap-6">
-          <Tag>Get in touch</Tag>
+          <Tag>Restons en contact</Tag>
           <Typography variant={"subtitle"} className="text-center">
             {
-              "What's next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect."
+              "Et maintenant ? N'hésitez pas à me contacter si vous êtes à la recherche d'un développeur, si vous avez une question ou souhaitez établir un premier contact."
             }
           </Typography>
           <div className="flex flex-col items-center">
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-center">
             <Typography variant={"body2"}>
-              You may also find me on these platforms!
+              Vous pouvez aussi me trouver sur ces plateformes!
             </Typography>
             <Socials />
           </div>
