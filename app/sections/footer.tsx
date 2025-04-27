@@ -13,11 +13,11 @@ const Footer = () => {
         <section className="flex flex-col items-center gap-6">
           <Tag>Restons en contact</Tag>
           <Typography variant={"subtitle"} className="text-center">
-            {
-              "Et maintenant ? N'hésitez pas à me contacter si vous êtes à la recherche d'un développeur, si vous avez une question ou souhaitez établir un premier contact."
-            }
+            Et maintenant ? N&apos;hésitez pas à me contacter si vous êtes à la
+            recherche d&apos;un développeur, si vous avez une question ou
+            souhaitez établir un premier contact.
           </Typography>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center gap-2">
             <div className="flex items-center gap-4">
               <Icon variant={"auto"}>
                 <Mail />

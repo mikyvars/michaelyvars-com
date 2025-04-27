@@ -10,16 +10,16 @@ const About = () => {
         <div className="flex flex-col items-center gap-6 md:gap-12">
           <Tag>À propos de moi</Tag>
           <div className="flex flex-col items-center gap-12 md:flex-row">
-            <div className="flex flex-1">
-              <div className="relative h-[300px] w-[280px] md:h-[360px] md:w-[320px]">
+            <div className="mb-auto flex flex-1">
+              <div className="relative h-[380px] w-[320px] md:h-[460px] md:w-[380px] lg:h-[520px] lg:w-[440px]">
                 <Image
                   src="/images/avatar-2.jpg"
                   alt="Michael Yvars"
-                  className="border-gray-default absolute right-5 z-10 h-[280px] w-[240px] border-8 md:top-0 md:right-0 md:h-[320px] md:w-[280px]"
+                  className="border-gray-default absolute right-5 z-10 h-[360px] w-[280px] border-8 max-md:left-5 md:top-0 md:right-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"
                   width={240}
                   height={280}
                 />
-                <div className="absolute top-5 h-[280px] w-[280px] border-8 border-transparent bg-gray-100 md:top-10 md:bottom-0 md:left-0 md:h-[320px]"></div>
+                <div className="absolute h-[360px] w-[320px] border-8 border-transparent bg-gray-100 max-md:top-5 md:bottom-0 md:left-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"></div>
               </div>
             </div>
             <div className="flex flex-1 flex-col gap-6">
@@ -29,17 +29,16 @@ const About = () => {
               <Typography variant="body2">
                 Depuis bientôt <strong>10 ans</strong>, je gravite autour du
                 monde du développement. J&apos;ai commencé par bidouiller des
-                projets sur des jeux vidéo, en codant en <strong>Java</strong>
-                et en <strong>Lua</strong>, sans vraiment savoir que
-                j&apos;étais en train de trouver ma voie. Cette curiosité
-                m&apos;a suivi jusqu&apos;à aujourd&apos;hui, nourrissant mon
-                envie constante d&apos;apprendre, d&apos;explorer de nouvelles
-                technologies et de donner vie à des projets concrets.
-                Aujourd&apos;hui, je me spécialise dans le
-                <strong>développement web</strong>, en travaillant
-                principalement avec <strong>JavaScript</strong>,
-                <strong>Next.js</strong> et <strong>TailwindCSS</strong> pour
-                créer des applications modernes, rapides et élégantes.
+                projets sur des jeux vidéo, en codant en <strong>Java</strong>et
+                en <strong>Lua</strong>, sans vraiment savoir quej&apos;étais en
+                train de trouver ma voie. Cette curiositém&apos;a suivi
+                jusqu&apos;à aujourd&apos;hui, nourrissant monenvie constante
+                d&apos;apprendre, d&apos;explorer de nouvellestechnologies et de
+                donner vie à des projets concrets.Aujourd&apos;hui, je me
+                spécialise dans le<strong>développement web</strong>, en
+                travaillantprincipalement avec <strong>JavaScript</strong>,{" "}
+                <strong>Next.js</strong> et <strong>TailwindCSS</strong>{" "}
+                pourcréer des applications modernes, rapides et élégantes.
               </Typography>
 
               <Typography variant="body2">
@@ -47,20 +46,21 @@ const About = () => {
                 idée en un produit abouti. J&apos;accorde une attention
                 particulière à <strong>l&apos;expérience utilisateur</strong> et
                 à <strong>la qualité visuelle</strong> de mes projets. Un site
-                ou une application doit être <strong>fluide</strong>,
+                ou une application doit être <strong>fluide</strong>,{" "}
                 <strong>rapide</strong> et <strong>agréable à utiliser</strong>,
                 tout en offrant une <strong>esthétique soignée</strong>.
-                J&apos;aime chercher cet équilibre entre
-                <strong>performance technique</strong> et
+                J&apos;aime chercher cet équilibre entre{" "}
+                <strong>performance technique</strong> et{" "}
                 <strong>plaisir visuel</strong>, pour créer des expériences
                 numériques qui donnent envie de rester.
               </Typography>
 
               <Typography variant="body2">
-                Aujourd&apos;hui, je suis à la recherche d&apos;une
+                {" "}
+                Aujourd&apos;hui, je suis à la recherche d&apos;une{" "}
                 <strong>alternance</strong> pour continuer à développer mes
-                compétences aux côtés de professionnels expérimentés. Grâce à ma
-                <strong>capacité d&apos;apprentissage rapide</strong> et à ma
+                compétences aux côtés de professionnels expérimentés. Grâce à ma{" "}
+                <strong>capacité d&apos;apprentissage rapide</strong> et à ma{" "}
                 <strong>curiosité naturelle</strong>, je suis capable de monter
                 en compétence efficacement sur de nouvelles technologies ou de
                 nouveaux outils. J&apos;aime sortir de ma zone de confort,
@@ -69,13 +69,14 @@ const About = () => {
               </Typography>
 
               <Typography variant="body2">
+                {" "}
                 En dehors du code, je suis passionné de <strong>cinéma</strong>,
                 toujours à la recherche du prochain film qui me marquera, et
                 grand amateur de la franchise <strong>Marvel</strong>.
-                J&apos;adore aussi organiser des projets autour des
+                J&apos;adore aussi organiser des projets autour des{" "}
                 <strong>jeux vidéo</strong> avec mes amis : brainstormer,
-                construire, créer ensemble… Le
-                <strong>travail d&apos;équipe</strong> et la
+                construire, créer ensemble… Le{" "}
+                <strong>travail d&apos;équipe</strong> et la{" "}
                 <strong>créativité</strong> ont toujours été au cœur de ce que
                 j&apos;aime faire.
               </Typography>

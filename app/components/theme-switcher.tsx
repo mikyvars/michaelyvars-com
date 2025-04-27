@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import { MoonStar, Sun } from "lucide-react";
+import { Loader, MoonStar, Sun } from "lucide-react";
 import Typography from "./typography";
 import IconButton from "./icon-button";
 
@@ -17,12 +17,22 @@ const ThemeSwitcher = () => {
   }, []);
 
   if (!mounted) {
-    return null;
+    return (
+      <div className="flex cursor-pointer items-center justify-between">
+        <Typography className="md:hidden">Changer de Thème</Typography>
+        <IconButton>
+          <Loader />
+        </IconButton>
+      </div>
+    );
   }
 
   return (
-    <div onClick={toggleTheme} className="flex justify-between">
-      <Typography className="md:hidden">Switch Theme</Typography>
+    <div
+      onClick={toggleTheme}
+      className="flex cursor-pointer items-center justify-between"
+    >
+      <Typography className="md:hidden">Changer de Thème</Typography>
       <IconButton>{theme === "dark" ? <MoonStar /> : <Sun />}</IconButton>
     </div>
   );
