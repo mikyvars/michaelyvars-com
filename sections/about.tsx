@@ -26,7 +26,7 @@ const About = () => {
               <Typography variant="h3">
                 Vous êtes curieux à mon sujet ?
               </Typography>
-              <Typography variant="body2">
+              <Typography variant="body2" className="text-justify">
                 Depuis bientôt <strong>10 ans</strong>, je gravite autour du
                 monde du développement. J&apos;ai commencé par bidouiller des
                 projets sur des jeux vidéo, en codant en <strong>Java</strong>{" "}
@@ -42,7 +42,7 @@ const About = () => {
                 créer des applications modernes, rapides et élégantes.
               </Typography>
 
-              <Typography variant="body2">
+              <Typography variant="body2" className="text-justify">
                 Ce que j&apos;aime par-dessus tout, c&apos;est transformer une
                 idée en un produit abouti. J&apos;accorde une attention
                 particulière à <strong>l&apos;expérience utilisateur</strong> et
@@ -56,8 +56,7 @@ const About = () => {
                 numériques qui donnent envie de rester.
               </Typography>
 
-              <Typography variant="body2">
-                {" "}
+              <Typography variant="body2" className="text-justify">
                 Aujourd&apos;hui, je suis à la recherche d&apos;une{" "}
                 <strong>alternance</strong> pour continuer à développer mes
                 compétences aux côtés de professionnels expérimentés. Grâce à ma{" "}
@@ -69,8 +68,7 @@ const About = () => {
                 de lui-même — tout comme moi.
               </Typography>
 
-              <Typography variant="body2">
-                {" "}
+              <Typography variant="body2" className="text-justify">
                 En dehors du code, je suis passionné de <strong>cinéma</strong>,
                 toujours à la recherche du prochain film qui me marquera, et
                 grand amateur de la franchise <strong>Marvel</strong>.
@@ -82,12 +80,14 @@ const About = () => {
                 j&apos;aime faire.
               </Typography>
 
-              <Typography variant="body2">
+              <Typography variant="body2" className="text-justify">
                 Si vous souhaitez en savoir plus ou échanger avec moi, toutes
                 mes informations de contact sont disponibles en bas de page.
               </Typography>
 
-              <Typography variant="body2">À bientôt !</Typography>
+              <Typography variant="body2" className="text-justify">
+                À bientôt !
+              </Typography>
             </div>
           </div>
         </div>

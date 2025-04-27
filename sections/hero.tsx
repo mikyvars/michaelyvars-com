@@ -26,7 +26,7 @@ const Hero = () => {
             <Typography variant="h1">
               {"Hello, moi c'est Michael 👋"}
             </Typography>
-            <Typography variant="body2">
+            <Typography variant="body2" className="text-justify">
               Développeur web en devenir, passionné par le JavaScript et les
               technologies modernes. J&apos;aime apprendre, expérimenter et
               créer des projets rapides, accessibles et agréables à utiliser.
