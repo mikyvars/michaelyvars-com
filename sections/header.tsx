@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <header className="flex w-screen flex-col md:flex-row">
+    <header className="flex w-full flex-col md:flex-row">
       <div className="bg-gray-default mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 md:px-8">
         <p className="text-3xl font-bold text-gray-900">{"<MY />"}</p>
         <div onClick={handleClick} className="md:hidden">
