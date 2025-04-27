@@ -15,11 +15,11 @@ const About = () => {
                 <Image
                   src="/images/avatar-2.jpg"
                   alt="Michael Yvars"
-                  className="border-gray-default absolute right-5 z-10 h-[360px] w-[280px] border-8 max-md:left-5 md:top-0 md:right-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"
+                  className="absolute right-5 z-10 h-[360px] w-[280px] border-8 border-gray-50 max-md:left-5 md:top-0 md:right-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"
                   width={240}
                   height={280}
                 />
-                <div className="absolute h-[360px] w-[320px] border-8 border-transparent bg-gray-100 max-md:top-5 md:bottom-0 md:left-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"></div>
+                <div className="absolute h-[360px] w-[320px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:left-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"></div>
               </div>
             </div>
             <div className="flex flex-1 flex-col gap-6">
