@@ -39,9 +39,7 @@ const Hero = () => {
               <Icon variant="md">
                 <MapPin />
               </Icon>
-              <Typography variant="body2">
-                Plaisance-du-Touch, France
-              </Typography>
+              <Typography variant="body2">Toulouse, France</Typography>
             </div>
             <div className="flex gap-2">
               <Icon variant="md">
