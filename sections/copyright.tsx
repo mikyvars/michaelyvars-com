@@ -10,19 +10,23 @@ const Copyright = () => {
         <CopyrightIcon className="h-4 w-4" />- Tous droits réservés
       </Typography>
       <Typography>
+        Conception par{" "}
         <Link
           href={"https://www.figma.com/community/file/1262992249991763120"}
           target="_blank"
+          className="underline"
         >
-          Designé par Sagar Shah
+          Sagar Shah
         </Link>
       </Typography>
       <Typography>
+        Code par{" "}
         <Link
           href={"https://github.com/mikyvars/michaelyvars-com"}
           target="_blank"
+          className="underline"
         >
-          Codé par Michael Yvars
+          Michael Yvars
         </Link>
       </Typography>
     </section>
