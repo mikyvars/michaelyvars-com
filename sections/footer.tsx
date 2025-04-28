@@ -4,6 +4,7 @@ import Typography from "../components/typography";
 import Icon from "../components/icon";
 import Socials from "../components/socials";
 import Container from "../components/container";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -21,7 +22,11 @@ const Footer = () => {
               <Icon variant={"auto"}>
                 <Mail />
               </Icon>
-              <Typography variant={"h2"}>michaelyvars1@gmail.com</Typography>
+              <Typography variant={"h2"} className="underline">
+                <Link href="mailto:michaelyvars1gmail.com">
+                  michaelyvars1@gmail.com
+                </Link>
+              </Typography>
               {/* <IconButton>
                 <Copy />
               </IconButton> */}
