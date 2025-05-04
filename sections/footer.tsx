@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <Container id="#contact">
+    <Container id="contact">
       <div className="flex flex-col items-center gap-6">
         <Tag>Restons en contact</Tag>
         <Typography variant={"subtitle"} className="text-center">

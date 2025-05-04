@@ -5,7 +5,7 @@ import Container from "../components/container";
 
 const About = () => {
   return (
-    <Container className="bg-gray-50">
+    <Container id="about" className="bg-gray-50">
       <div className="flex flex-col items-center gap-6 md:gap-12">
         <Tag>À propos de moi</Tag>
         <div className="flex flex-col items-center gap-12 md:flex-row">

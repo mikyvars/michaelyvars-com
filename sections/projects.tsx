@@ -5,7 +5,7 @@ import { PROJECTS } from "@/lib/data";
 
 const Projects = () => {
   return (
-    <Container>
+    <Container id="projects">
       <div className="flex flex-col items-center gap-6">
         <Tag>Mes projets</Tag>
         {PROJECTS.map((project, index) => (

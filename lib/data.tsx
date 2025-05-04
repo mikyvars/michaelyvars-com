@@ -3,7 +3,7 @@ import { NavigationLink, ProjectDetails, SocialLink } from "./types";
 
 export const NAVIGATION_LINKS: NavigationLink[] = [
   { href: "#about", label: "À propos" },
-  // { href: "#work", label: "Work" },
+  { href: "#projects", label: "Projets" },
   { href: "#contact", label: "Contact" },
 ];
 
