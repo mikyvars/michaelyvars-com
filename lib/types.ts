@@ -9,3 +9,11 @@ export interface SocialLink {
   href: string;
   icon: LucideIcon;
 }
+
+export interface ProjectDetails {
+  name: string;
+  description: string;
+  image: string;
+  link: string;
+  tags: string[];
+}
