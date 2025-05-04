@@ -4,7 +4,7 @@ import { CopyrightIcon } from "lucide-react";
 
 const Copyright = () => {
   return (
-    <section className="flex flex-col items-center bg-gray-50 px-4 py-4 md:px-20 md:py-6">
+    <footer className="flex flex-col items-center bg-gray-50 px-4 py-4 md:px-20 md:py-6">
       <Typography className="flex items-center gap-1">
         Copyright {new Date().getFullYear()}
         <CopyrightIcon className="h-4 w-4" />- Tous droits réservés
@@ -29,7 +29,7 @@ const Copyright = () => {
           Michael Yvars
         </Link>
       </Typography>
-    </section>
+    </footer>
   );
 };
 
