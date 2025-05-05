@@ -16,7 +16,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: "Booki",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla hendrerit orci ut nisl aliquet, sed lobortis augue auctor. Vivamus scelerisque magna sit amet molestie blandit. Etiam posuere metus dui, a pulvinar turpis pellentesque in. Nam auctor, neque in posuere efficitur, mi ante interdum mi, eget finibus nisl eros et risus.",
+      "Premier projet de la formation \"Développeur Web\" que j'ai suivi sur OpenClassrooms. Le but ? Démarrer la formation en réalisant un site web pour trouver son hébergement de vacances. Ce projet est static, uniquement avec HTML et CSS sans l'utilisation d'un quelconque framework. Il s'agit du premier projet \"concret\" que j'ai réalisé.",
     image: "/images/projects/booki.jpg",
     link: "https://mikyvars.github.io/OC_Booki/",
     tags: ["HTML", "CSS"],
