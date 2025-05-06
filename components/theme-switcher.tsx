@@ -20,7 +20,7 @@ const ThemeSwitcher = () => {
     return (
       <div className="flex cursor-pointer items-center justify-between">
         <Typography className="md:hidden">Changer de Thème</Typography>
-        <IconButton>
+        <IconButton aria-label={`Changer de thème`}>
           <Loader />
         </IconButton>
       </div>
@@ -33,7 +33,9 @@ const ThemeSwitcher = () => {
       className="flex cursor-pointer items-center justify-between"
     >
       <Typography className="md:hidden">Changer de Thème</Typography>
-      <IconButton>{theme === "dark" ? <MoonStar /> : <Sun />}</IconButton>
+      <IconButton aria-label={`Changer de thème`}>
+        {theme === "dark" ? <MoonStar /> : <Sun />}
+      </IconButton>
     </div>
   );
 };

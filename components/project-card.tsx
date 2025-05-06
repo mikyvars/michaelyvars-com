@@ -39,7 +39,7 @@ const ProjectCard = ({ project, order = "default" }: ProjectCardProps) => {
           ))}
         </div>
         <Link href={project.link} target="_blank">
-          <IconButton>
+          <IconButton aria-label={`Voir le projet ${project.name}`}>
             <ExternalLink />
           </IconButton>
         </Link>

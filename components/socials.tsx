@@ -9,7 +9,7 @@ const Socials = () => {
     <div className="flex">
       {SOCIAL_LINKS.map((socialLink) => (
         <Link key={socialLink.href} href={socialLink.href} target="_blank">
-          <IconButton>
+          <IconButton aria-label={`Profil ${socialLink.name} de Michael Yvars`}>
             <socialLink.icon />
           </IconButton>
         </Link>

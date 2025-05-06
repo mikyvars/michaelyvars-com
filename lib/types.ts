@@ -6,6 +6,7 @@ export interface NavigationLink {
 }
 
 export interface SocialLink {
+  name: string;
   href: string;
   icon: LucideIcon;
 }
