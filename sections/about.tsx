@@ -23,7 +23,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex flex-1 flex-col gap-6">
-            <Typography variant="h3">
+            <Typography variant="h2">
               Vous êtes curieux à mon sujet ?
             </Typography>
             <Typography variant="body2" className="text-justify">
