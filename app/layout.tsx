@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const interSans = Inter({
   variable: "--font-inter-sans",
@@ -57,7 +58,10 @@ export default function RootLayout({
         className={`${interSans.variable} antialiased`}
         suppressHydrationWarning
       >
-        <ThemeProvider attribute="class">{children}</ThemeProvider>
+        <ThemeProvider attribute="class">
+          {children}
+          <Analytics />
+        </ThemeProvider>
       </body>
     </html>
   );
